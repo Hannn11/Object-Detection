@@ -14,17 +14,6 @@ Object Detection Dashboard is a web-based application that allows users to uploa
 
 - 🎯 Powered by YOLOv8 for fast and accurate object detection
 
-## 📁 Project Structure
-├──app.py                  # Main application using Streamlit
-├── detect.py               # Object detection logic using YOLOv8
-├── requirements.txt        # Python dependencies
-├── assets/                 # Optional UI icons
-├── uploads/
-│   ├── images/             # Uploaded image files
-│   └── videos/             # Uploaded video files# 📸 Object Detection Dashboard
-
-Object Detection Dashboard is a web-based application that allows users to upload images or videos, perform object detection automatically using the YOLOv8 model, and view the results visually on the dashboard.
-
 ## 🚀 Features
 
 - 🖼️ Upload images (PNG, JPG, JPEG)
@@ -38,6 +27,7 @@ Object Detection Dashboard is a web-based application that allows users to uploa
 - 🎯 Powered by YOLOv8 for fast and accurate object detection
 
 ## 📁 Project Structure
+```
 ├── app.py                  # Streamlit app (main dashboard interface)
 ├── detect.py               # Core object detection logic using YOLOv8
 ├── requirements.txt        # List of Python dependencies for the project
@@ -48,7 +38,7 @@ Object Detection Dashboard is a web-based application that allows users to uploa
 ├── outputs/
 │   ├── images/             # Folder for images after object detection
 │   └── videos/             # Folder for videos after object detection
-
+```
 
 ## 📃 Requirements
 
